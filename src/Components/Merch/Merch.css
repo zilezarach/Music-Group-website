@@ -1,0 +1,38 @@
+.product-list{
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: center;
+}
+
+
+
+.product {
+    border: 2px solid #d8ba0d;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    display: inline-block;
+}
+.product img {
+    max-width: 100%;
+}
+.product h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    color:black;
+}
+.product p {
+    margin-top: 10px;
+    font-weight: bold;
+    color:#d8ba0d;
+}
+
+.product button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.product button:hover {
+    background-color: #af3f07;
+}
